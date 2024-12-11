@@ -1,0 +1,43 @@
+{
+  "Oberteile": [
+    {
+      "id": "1",
+      "name": "Pullover",
+      "grösse": "M"
+    },
+    {
+      "name": "Jacke",
+      "grösse": "L",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "T-Shirt",
+      "grösse": "S"
+    }
+  ],
+  "Hosen": [
+    {
+      "id": "1",
+      "name": "Jeans ",
+      "grösse": "34"
+    },
+    {
+      "id": "2",
+      "name": "Stoffhose",
+      "grösse": "36"
+    }
+  ],
+  "Schuhe": [
+    {
+      "id": "1",
+      "name": "Sneaker Nike",
+      "grösse": "40"
+    },
+    {
+      "id": "2",
+      "name": "Sneaker New Balance",
+      "grösse": "40"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtueller Kleiderschrank</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Virtueller Kleiderschrank</h1>
+    <nav>
+      <button onclick="navigate('Oberteile')">Oberteile</button>
+      <button onclick="navigate('Hosen')">Hosen</button>
+      <button onclick="navigate('Schuhe')">Schuhe</button>
+    </nav>
+  </header>
+
+  <!-- Login-Bereich -->
+  <div id="login-container">
+    <h2>Anmeldung</h2>
+    <input type="text" id="username" placeholder="Benutzername" required>
+    <input type="password" id="password" placeholder="Passwort" required>
+    <button id="login-btn">Anmelden</button>
+    <p id="login-error" style="color: red;"></p>
+  </div>
+
+  <main id="main-content" style="display: none;">
+    <div id="content">
+      <h2 id="section-title">Wähle eine Kategorie</h2>
+      <form id="add-form">
+        <input type="number" id="id" placeholder="ID" required>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="size" placeholder="Größe (optional)">
+        <button type="submit">Hinzufügen</button>
+      </form>
+      <button class="read">Anzeigen</button>
+      <ul id="item-list"></ul>
+    </div>
+
+    <button id="logout-btn">Logout</button>
+  
+  </main>
+
+    <footer>
+      <p>© 2024 Virtueller Kleiderschrank. Alle Rechte vorbehalten.</p>
+    </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
